@@ -2,10 +2,8 @@ package com.neuedu.main;
 /**
  * 用于绘制窗口
  */
-
 import com.neuedu.constant.FrameConstant;
 import com.neuedu.runtime.Background;
-
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
