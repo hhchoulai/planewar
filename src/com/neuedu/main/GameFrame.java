@@ -11,6 +11,7 @@ import java.awt.event.WindowEvent;
 public class GameFrame extends Frame {
     private Background bg=new Background();
     @Override
+//    paint方法是默认调用
     public void paint(Graphics g) {
         bg.draw(g);
     }
