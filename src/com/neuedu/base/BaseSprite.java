@@ -1,5 +1,7 @@
 package com.neuedu.base;
 
+import java.awt.*;
+
 /**
  * 所以精灵的基类，里边只存放属性，方法用接口
  */
@@ -29,5 +31,8 @@ public abstract class BaseSprite {
 
     public void setY(int y) {
         this.y = y;
+    }
+    public Rectangle getRectangle(){
+        return null;
     }
 }
